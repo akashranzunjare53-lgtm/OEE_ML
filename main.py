@@ -37,10 +37,10 @@ print(features)
 # ==========================================
 
 def get_db_connection():
-    db_host = os.getenv("DB_HOST", "127.0.0.1")
+    db_host = os.getenv("DB_HOST", "oee-mysql-prod-123.mysql.database.azure.com")
     db_port = int(os.getenv("DB_PORT", "3306"))
-    db_user = os.getenv("DB_USER")
-    db_password = os.getenv("DB_PASSWORD")
+    db_user = os.getenv("akashranzunjare")
+    db_password = os.getenv("R@nzunjare13101995")
     db_name = os.getenv("DB_NAME")
 
     # Check that required environment variables exist
